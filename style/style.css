@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+:root {
+  --primary: #007AF3;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #171923;
+  margin-top: 0px;
+  max-width: 100%;
+
+  overflow-x: hidden;
+  margin: 0px
+}
+
+.logo {
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+
+
+}
+
+span {
+
+  color: var(--primary);
+  font-weight: 700
+}
+
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+
+ul li {
+  color: #4f5b6d;
+  list-style: none;
+
+  margin-top: 25px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  transition: ease-in 0.19s
+}
+
+ul a {
+  color: #4f5b6d;
+  list-style: none;
+
+  margin-top: 25px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 20px;
+  transition: ease-in 0.19s
+}
+
+ul li:hover {
+  color: rgb(226, 238, 248);
+  transition: ease-in 0.19s;
+  text-decoration: none
+}
+
+ul li a:hover {
+  text-decoration: none;
+  color: rgb(226, 238, 248);
+}
+
+.secondary-navbar {
+  padding: 0;
+
+  margin-left: 0;
+  margin-right: 10px;
+  color: var(--primary);
+  border-color: var(--primary);
+  border-style: solid;
+  border-radius: 100px;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-left: 20px;
+  transition: ease-in 0.19s
+}
+
+.secondary-navbar:hover {
+  color: #e64444;
+  border-color: #e64444;
+  text-decoration: none;
+  transition: ease-in 0.19s
+}
+
+
+.main-section {
+  height: 857px;
+  width: 100%;
+  color: white;
+  font: bold 6.5em/2em monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.287)), url("https://www.legalgeek.co/wp-content/uploads/2018/02/Online-Courts-Hackathon-Team.jpg") no-repeat top center;
+  background-size: cover;
+}
+
+.container {
+  height: 100px;
+  display: flex;
+
+}
+
+.container p {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 60px;
+
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.container p span.typed-text {
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 60px;
+
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary);
+}
+
+.container p span.cursor {
+
+  background-color: transparent;
+  width: 0px;
+  height: 0px;
+
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {
+    background-color: var(--primary);
+  }
+
+  49% {
+    background-color: var(--primary);
+  }
+
+  50% {
+    background-color: transparent;
+  }
+
+  99% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: var(--primary);
+  }
+}
+
+.aboutus {
+  justify-content: center;
+  text-align: center;
+  padding: 70px;
+}
+
+.aboutus h2 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+.description {
+
+  font-weight: 400;
+  display: inline-block;
+  width: 60%;
+  color: #4f5b6d;
+  font-size: 19px;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.aboutus h1 {
+  color: white !important;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+
+.icon-desc {
+  color: #4f5b6d;
+  display: inline-block;
+  text-align: start !important;
+
+
+}
+
+hr.solid {
+  border-top: 0.5px solid #4f5b6d;
+  opacity: 0.5;
+}
+
+
+.events {
+  justify-content: center;
+  text-align: center;
+  padding: 60px;
+}
+
+.events h2 {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.events p {
+  color: var(--primary);
+  font-weight: bold;
+
+  font-size: 16px;
+}
+
+
+
+.members {
+  justify-content: center;
+  text-align: center;
+  padding: 60px;
+}
+
+.members-title {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 50px;
+
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 3px solid var(--primary);
+}
+
+.members h2 {
+  color: white !important;
+  font-size: 15px !important;
+  font-weight: bold !important;
+}
+
+
+
+.members p {
+  color: #4f5b6d;
+}
+
+.leader {
+  margin: 30px;
+}
+
+.end {
+  background-color: #4f5b6d28;
+
+  justify-content: center;
+  text-align: center;
+  padding: 60px;
+  padding-bottom: 60px;
+}
+
+.end h1 {
+
+  text-align: start;
+  color: #4f5b6d !important;
+  font-weight: bold;
+  margin-bottom: 30px
+}
+
+.icon-desc h1 {
+  color: white !important;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: start;
+  margin: 10px;
+}
+
+.icon-desc a {
+  text-decoration: none;
+  color: #4f5b6d;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-evenly;
+}
+
+
+@media(max-width:1006px) {
+
+  .navbar {
+    display: none;
+    padding: 5px !important;
+    padding-bottom: 10px !important;
+    margin: 0px !important;
+
+  }
+
+  .topnav {
+    margin-top: 0px;
+    padding-top: 0px;
+    ;
+    overflow: hidden !important;
+    align-items: center;
+    margin: 0px;
+    position: relative !important;
+    transition: ease-in 0.19s !important;
+    display: block !important;
+  }
+
+  .topnav #myLinks {
+    display: none;
+    transition: ease-in 0.19s
+  }
+
+  .register {
+
+
+    color: var(--primary);
+    border-color: var(--primary);
+    border-style: solid;
+    border-radius: 40px;
+    font-weight: bold;
+    height: 50px;
+    width:100%;
+    transition: ease-in 0.19s
+  }
+
+  .register:hover {
+    color: #e64444;
+    border-color: #e64444
+  }
+
+  .register:focus {
+    color: #e64444;
+    border-color: #e64444
+  }
+
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    transition: ease-in 0.19s
+  }
+
+  .topnav a.icon {
+    padding-top: 30px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: ease-in 0.19s
+  }
+
+
+  .main-section {
+    margin-top: 10px
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-evenly;
+  }
+
+  .description {
+    width: 100% !important;
+  }
+
+}
+
+@media (max-width:552px) {
+  .second-contact {
+    margin-left: 0px !important;
+  }
+
+  .contact-us {
+    display: block !important;
+  }
+}
