@@ -15,7 +15,9 @@ body {
   max-width: 100%;
 
   overflow-x: hidden;
-  margin: 0px
+  margin: 0px;
+
+  padding: 0px;
 }
 
 .logo {
@@ -106,6 +108,7 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 0px;
 
   background: linear-gradient(to top, rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.287)), url("https://www.legalgeek.co/wp-content/uploads/2018/02/Online-Courts-Hackathon-Team.jpg") no-repeat top center;
   background-size: cover;
