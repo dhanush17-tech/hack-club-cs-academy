@@ -6,16 +6,17 @@
 
 html {
   scroll-behavior: smooth;
+  /* -ms-overflow-style: none;  /* IE and Edge */
 }
 
 body {
   font-family: 'Poppins', sans-serif;
   background-color: #171923;
-  margin-top: 0px ;
+  margin-top: 0px;
   max-width: 100%;
 
   overflow-x: hidden;
-  margin: 0px!important;
+  margin: 0px !important;
 
   padding: 0px;
 }
@@ -207,15 +208,15 @@ ul li a:hover {
   color: #4f5b6d;
   display: inline-block;
   text-align: start !important;
-  
+
 
 
 
 }
 
-.icon-desc h1{
+.icon-desc h1 {
   margin: 0px !important;
-} 
+}
 
 hr.solid {
   border-top: 0.5px solid #4f5b6d;
@@ -318,7 +319,8 @@ hr.solid {
   grid-template-columns: auto auto;
   justify-content: space-evenly;
 }
-.leader{
+
+.leader {
   margin: 30px;
 
 }
@@ -326,7 +328,7 @@ hr.solid {
 @media(max-width:1126px) {
 
   .navbar {
-    display: none; 
+    display: none;
     padding: 5px !important;
     padding-bottom: 10px !important;
     margin: 0px !important;
@@ -360,7 +362,7 @@ hr.solid {
     font-weight: bold;
     align-items: center;
     height: 50px;
-    width:100%;
+    width: 100%;
     transition: ease-in 0.19s
   }
 
@@ -409,7 +411,7 @@ hr.solid {
 
   }
 
- 
+
 }
 
 @media (max-width:552px) {
@@ -421,12 +423,15 @@ hr.solid {
     display: block !important;
   }
 
-  .list{
+  .list {
     display: block !important;
+
   }
 
-.leader{
-    margin: 0px;
+  .leader {
+    margin: 0px !important;
+    text-align: center !important;
 
-}
+  }
+
 }
