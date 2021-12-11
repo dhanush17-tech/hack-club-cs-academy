@@ -337,11 +337,14 @@ hr.solid {
     position: relative !important;
     transition: ease-in 0.19s !important;
     display: block !important;
+    justify-content:center;
+    align-items:center;
   }
 
   .topnav #myLinks {
     display: none;
-    transition: ease-in 0.19s
+    transition: ease-in 0.19s;
+   
   }
 
   .register {
@@ -352,6 +355,8 @@ hr.solid {
     border-style: solid;
     border-radius: 40px;
     font-weight: bold;
+    align-items: center;
+    justify-content: center;
     height: 50px;
     width:100%;
     transition: ease-in 0.19s
