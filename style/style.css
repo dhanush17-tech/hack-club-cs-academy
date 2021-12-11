@@ -273,9 +273,7 @@ hr.solid {
   color: #4f5b6d;
 }
 
-.leader {
-  margin: 30px;
-}
+
 
 .end {
   background-color: #4f5b6d28;
@@ -284,6 +282,7 @@ hr.solid {
   text-align: center;
   padding: 60px;
   padding-bottom: 60px;
+  width: 100%;
 }
 
 .end h1 {
@@ -313,12 +312,15 @@ hr.solid {
   grid-template-columns: auto auto;
   justify-content: space-evenly;
 }
+.leader{
+  margin: 30px;
 
+}
 
-@media(max-width:1006px) {
+@media(max-width:1126px) {
 
   .navbar {
-    display: none;
+    display: none; 
     padding: 5px !important;
     padding-bottom: 10px !important;
     margin: 0px !important;
@@ -396,8 +398,10 @@ hr.solid {
 
   .description {
     width: 100% !important;
+
   }
 
+ 
 }
 
 @media (max-width:552px) {
@@ -408,4 +412,13 @@ hr.solid {
   .contact-us {
     display: block !important;
   }
+
+  .list{
+    display: block !important;
+  }
+
+.leader{
+    margin: 0px;
+
+}
 }
