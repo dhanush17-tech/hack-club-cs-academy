@@ -207,9 +207,15 @@ ul li a:hover {
   color: #4f5b6d;
   display: inline-block;
   text-align: start !important;
+  
+
 
 
 }
+
+.icon-desc h1{
+  margin: 0px !important;
+} 
 
 hr.solid {
   border-top: 0.5px solid #4f5b6d;
@@ -394,6 +400,7 @@ hr.solid {
   .grid-container {
     display: grid;
     grid-template-columns: auto;
+    text-align: start;
     justify-content: space-evenly;
   }
 
