@@ -427,7 +427,7 @@ hr.solid {
 
 }
 
-@media (max-width:552px) {
+@media (max-width:900px) {
   .second-contact {
     margin-left: 0px !important;
   }
@@ -452,5 +452,11 @@ hr.solid {
       text-align: center !important;
     
   
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    text-align: start;
+    justify-content: space-evenly;
   }
 }
