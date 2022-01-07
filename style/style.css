@@ -385,7 +385,7 @@ hr.solid {
   }
 
   .register:focus {
-    color: #e64444;
+    color: #e64444; 
     border-color: #e64444
   }
 
